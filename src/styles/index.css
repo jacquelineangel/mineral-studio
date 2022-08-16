@@ -49,12 +49,12 @@ h1 {
   position: relative;
   top: 0;
   margin: 0 auto;
-  padding-top: 4rem;
+  padding-top: 2rem;
   font-weight: 500;
   letter-spacing: 0.8rem;
 }
 .content > h1 {
-  font-size: 16rem;
+  font-size: 14rem;
   margin-left: -1.25rem;
 }
 p {
@@ -74,12 +74,12 @@ p > span {
 }
 .buttons {
   bottom: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 5.4rem;
   position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.4rem;
+  gap: 1rem;
 }
 .buttons > a {
   text-decoration: none;
@@ -127,7 +127,7 @@ button::selection {
   color: inherit;
   background: inherit;
 }
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 880px) {
   .content > h1 {
     font-size: 12rem;
     padding-top: 2rem;
@@ -140,7 +140,7 @@ button::selection {
     padding-bottom: 4rem;
   }
 } 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 760px) {
   .mobile-content {
     display: block;
   }
@@ -161,7 +161,7 @@ button::selection {
     display: none;
   }
   .buttons {
-    padding-bottom: 2rem;
+    padding-bottom: 2.8rem;
   }
 }
 @media only screen and (max-width: 400px) {

@@ -21,11 +21,19 @@ const IndexPage = () => {
                 </button>
               </a>
               <a
-                href="https://twitter.com/mineral__studio"
+                href="https://twitter.com/mineralstu"
                 target="_blank"
               >
                 <button>
                   twitter
+                </button>
+              </a>
+              <a
+                href="https://instagram.com/mineralstu"
+                target="_blank"
+              >
+                <button>
+                  instagram
                 </button>
               </a>
             </div>
