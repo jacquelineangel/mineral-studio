@@ -1,0 +1,173 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 11px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, Roboto, sans-serif, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #27292B;
+  font-weight: normal;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  text-rendering: optimizeLegibility;
+}
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  height: 100vh;
+}
+.mobile-content {
+  display: none;
+}
+.column {
+  border-left: #e2e2e2 1px solid;
+} 
+.content {
+  padding: 0 auto;
+  height: 100%;
+}
+h1 {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 auto;
+  padding-top: 4rem;
+  font-weight: 500;
+  letter-spacing: 0.8rem;
+}
+.content > h1 {
+  font-size: 16rem;
+  margin-left: -1.12rem;
+}
+p {
+  max-width: 88%;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 150%;
+  position: relative;
+  margin: 2rem 1.2rem 0 0;
+  margin-left: -0.1rem;
+}
+p > span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  position: absolute;
+  margin: 0 0 0.1rem 0.2rem;
+}
+.buttons {
+  bottom: 0;
+  padding: 0 auto;
+  padding-bottom: 6rem;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.4rem;
+}
+.buttons > a {
+  text-decoration: none;
+}
+button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+
+  width: 100%;
+  max-height: 44px;
+
+  background: #27292B;
+  border-radius: 100px;
+  border: none;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: #FFFFFF;
+  font-size: 1.8em;
+  font-weight: 500;
+  line-height: 150%;
+}
+button:hover {
+  opacity: 0.8;
+}
+::-moz-selection {
+  color: inherit;
+  background: #f5f5f5;
+}
+::selection {
+  color: inherit;
+  background: #f5f5f5;
+}
+button::selection {
+  color: inherit;
+  background: inherit;
+}
+@media only screen and (max-width: 860px) {
+  .content > h1 {
+    font-size: 12rem;
+    padding-top: 2rem;
+  }
+  p {
+    margin-top: 1.2rem;
+  }
+  .buttons {
+    padding-bottom: 4rem;
+  }
+} 
+@media only screen and (max-width: 720px) {
+  .mobile-content {
+    display: block;
+  }
+  .mobile-content > h1 {
+    font-size: 6rem;
+    padding-top: 2rem;
+  }
+  .row {
+    display: block;
+    grid-template-columns: none;
+    height: 0 auto;
+  }
+  .column {
+    border: none;
+    display: block;
+  }
+  .content > h1 {
+    display: none;
+  }
+  .buttons {
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mobile-content > h1 {
+    font-size: 4rem;
+  }
+}
