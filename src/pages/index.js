@@ -21,7 +21,7 @@ const IndexPage = () => {
                 </button>
               </a>
               <a
-                href="https://twitter.com/mineralstu"
+                href="https://www.twitter.com/mineralstu"
                 target="_blank"
               >
                 <button>
@@ -29,7 +29,7 @@ const IndexPage = () => {
                 </button>
               </a>
               <a
-                href="https://instagram.com/mineralstu"
+                href="https://www.instagram.com/mineralstu"
                 target="_blank"
               >
                 <button>
