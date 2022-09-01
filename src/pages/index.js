@@ -23,6 +23,7 @@ const IndexPage = () => {
               <a
                 href="https://www.twitter.com/mineralstu"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button>
                   twitter
@@ -31,6 +32,7 @@ const IndexPage = () => {
               <a
                 href="https://www.instagram.com/mineralstu"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button>
                   instagram
@@ -48,7 +50,7 @@ const IndexPage = () => {
         <div className="column">
           <div className="content">
             <h1>Ral</h1>
-            <p>Creative Direction, Website Design, Digital Product Design, and Strategy.<span>Services</span></p>
+            <p>Brand Strategy, Identity Design, Website Design, and Digital Product Design.<span>Services</span></p>
           </div>
         </div>
       </div>

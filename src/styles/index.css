@@ -95,9 +95,10 @@ button {
   width: 100%;
   max-height: 44px;
 
-  background: #27292B;
+  background: #FFFFFF;
   border-radius: 100px;
   border: none;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.15);
 
   cursor: pointer;
 
@@ -107,13 +108,13 @@ button {
   order: 0;
   flex-grow: 0;
 
-  color: #FFFFFF;
+  color: #27292B;
   font-size: 1.8em;
   font-weight: 500;
   line-height: 150%;
 }
 button:hover {
-  opacity: 0.8;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
 }
 ::-moz-selection {
   color: inherit;

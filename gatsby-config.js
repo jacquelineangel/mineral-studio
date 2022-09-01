@@ -1,7 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Mineral Studio`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.mi-ne-ral.studio`,
   },
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/icon.png',
+      },
+    },
+  ],
+};
