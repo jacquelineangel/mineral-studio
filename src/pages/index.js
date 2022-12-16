@@ -1,5 +1,6 @@
 import * as React from "react";
 import "../styles/index.css";
+import { SEO } from "../components/seo"
 
 const IndexPage = () => {
   return (
@@ -60,4 +61,6 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>mi—ne—ral®</title>
+export const Head = () => (
+  <SEO />
+)
