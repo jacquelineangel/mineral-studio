@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mineral Studio`,
+    title: `mi—ne—ral®`,
     description: 'mi—ne—ral® is an innovation studio, founded and headquartered in Berlin, Germany.',
     twitterUsername: '@mineralstu',
     image: 'src/images/icon.png',
