@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `mi—ne—ral®`,
-    description: 'mi—ne—ral® is an innovation studio, founded and headquartered in Berlin, Germany.',
+    title: `Studio Mineral`,
+    description: 'Studio Mineral is a Berlin-based design studio developing creative and strategic work for early-stage startups.',
     twitterUsername: '@mineralstu',
     image: 'src/images/icon.png',
-    siteUrl: `https://www.mi-ne-ral.studio`,
+    siteUrl: `https://www.mineral.studio`,
   },
   plugins: [
     {

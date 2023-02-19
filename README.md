@@ -1,1 +1,1 @@
-## mi—ne—ral®
+## Studio Mineral

@@ -12,31 +12,13 @@ const IndexPage = () => {
         <div className="column">
           <div className="content">
             <h1>Mi</h1>
-            <p>mi—ne—ral® is an innovation studio, founded and headquartered in Berlin, Germany.<span>Office</span></p>
+            <p>Studio Mineral is a Berlin-based design studio developing creative and strategic work.<span>Studio</span></p>
             <div className="buttons">
               <a
                 href="mailto:admin@mi-ne-ral.com"
               >
                 <button>
-                  email
-                </button>
-              </a>
-              <a
-                href="https://www.twitter.com/mineralstu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>
-                  twitter
-                </button>
-              </a>
-              <a
-                href="https://www.instagram.com/mineralstu"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button>
-                  instagram
+                  Let's chat
                 </button>
               </a>
             </div>
